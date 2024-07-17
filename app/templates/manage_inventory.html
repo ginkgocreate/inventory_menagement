@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Manage Inventory</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Buying ID</th>
+        <th>Product Serial No</th>
+        <!-- 他のカラムも追加 -->
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in inventory_items %}
+      <tr>
+        <td>{{ item.buying_id }}</td>
+        <td>{{ item.product_serial_no }}</td>
+        <!-- 他のカラムも追加 -->
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
