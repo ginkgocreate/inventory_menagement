@@ -5,7 +5,7 @@ function Test() {
   const [response, setResponse] = useState(null);
 
   const handleApiCall = () => {
-    axios.post('http://localhost:5000/login', {
+    axios.post('http://localhost:5000/auth/login', {
         "login_id": "admin",
         "user_name": "Administrator",
         "password": "Root#008#",

@@ -1,0 +1,46 @@
+フォルダー パスの一覧
+ボリューム シリアル番号は 1A85-DC5A です
+C:.
+│  config.py
+│  directory_structure.txt
+│  run.py
+│  
+├─app
+│  │  __init__.py
+│  │  
+│  ├─models
+│  │  │  user.py
+│  │  │  
+│  │  └─__pycache__
+│  │          user.cpython-310.pyc
+│  │          
+│  ├─routes
+│  │  │  auth_routes.py
+│  │  │  user_routes.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          auth_routes.cpython-310.pyc
+│  │          user_routes.cpython-310.pyc
+│  │          __init__.cpython-310.pyc
+│  │          
+│  ├─static
+│  ├─templates
+│  ├─utils
+│  │  │  helpers.py
+│  │  │  
+│  │  └─__pycache__
+│  │          helpers.cpython-310.pyc
+│  │          
+│  └─__pycache__
+│          __init__.cpython-310.pyc
+│          
+├─flask_session
+│      2029240f6d1128be89ddc32729463129
+│      b49d45757037f3443c539f4423ab50ad
+│      be13adea42eba0cf7df5f202e8d7123f
+│      e982d04fae281c4761f4c367130f88df
+│      
+└─__pycache__
+        config.cpython-310.pyc
+        
